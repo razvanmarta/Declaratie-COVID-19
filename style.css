@@ -1,0 +1,38 @@
+#myModal{
+  display: block;
+  background-color: lightslategrey;
+}
+
+#allIn{
+   /* background-color: rgb(192, 20, 20); */
+   width: 90px;
+   height: 40px;
+   font-size: 14px;
+}
+
+
+button.btn.btn-secondary{
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+button#close.btn.btn-danger{
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  opacity: 0.5;
+
+}
+div.modal-footer{
+  justify-content: center;
+}
+
+.modal.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
