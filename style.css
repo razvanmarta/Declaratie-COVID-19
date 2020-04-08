@@ -31,8 +31,21 @@ div.modal-footer{
 
 .modal.show{
   display: block;
+
 }
 
 .hide{
   display: none;
+}
+
+.appBtn{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
