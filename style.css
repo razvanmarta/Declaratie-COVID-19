@@ -49,3 +49,14 @@ h3{
   justify-content: center;
   align-items: center;
 }
+
+#signContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+}
+
+#signHere, #getData{
+  height: 38px;
+}
