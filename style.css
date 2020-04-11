@@ -59,4 +59,22 @@ h3{
 
 #signHere, #getData{
   height: 38px;
+  margin-left: 5px;
+}
+
+button#dropdownMenu2 {
+  width: 100%;
+  text-align: left;
+  background: white;
+  font-size: 15px;
+  color: black;
+  opacity: 0.7;
+}
+
+input#lastName,input#firstName,input#birthDate,input#address,input#destination{
+  margin-bottom: 8px;
+}
+
+button#dropdownMenu2 {
+  margin-bottom: 8px;
 }

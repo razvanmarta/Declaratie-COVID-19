@@ -34,9 +34,27 @@
                     <label for="destination" class="sr-only">Destination</label>
                     <input type="text" class="form-control" id="destination" placeholder="Destinatia">
 
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Motivul depasarii:
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button" id="profi">Interes profesional</button>
+                        <button class="dropdown-item" type="button" id="goods">Asigurarea de bunuri</button>
+                        <button class="dropdown-item" type="button" id="medical">Asistenta medicala</button>
+                        <button class="dropdown-item" type="button" id="carrying">Ingrijirea batranilor/minorilor/deces/</button>
+                        <button class="dropdown-item" type="button" id="fitness">Activitate fizica individuala</button>
+                        <button class="dropdown-item" type="button" id="farming">Activitati agricole</button>
+                        <button class="dropdown-item" type="button" id="donation">Donarea de sange</button>
+                        <button class="dropdown-item" type="button" id="volunteering">Scopuri umanitare/voluntariat</button>
+                        <button class="dropdown-item" type="button" id="trade">Comercializarea produselor agroalimentare</button>
+                        <button class="dropdown-item" type="button" id="profGoods">Asigurarea de bunuri pentru activitatea profesionala</button>
+                      </div>
+                    </div>
+
                     <div id="signContainer">
                       <label for="dataSign" class="sr-only">Signature</label>
-                      <input type="text" class="form-control" id="dataSign" placeholder="Insereaza textul aici">
+                      <input type="text" class="form-control" id="dataSign" placeholder="Insereaza semnatura">
                       <button type="button" class="btn btn-success" id="signHere" onClick="location.href ='http://szimek.github.io/signature_pad/'">Sign</button>
                       <button type="button" class="btn btn-dark" id="getData" onClick="location.href ='https://dataurl.sveinbjorn.org/#dataurlmaker'">Get</button>
                     </div>
@@ -44,7 +62,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary" id="allIn">GENERATE</button>
-              <button type="button" class="btn btn-secondary" id="restart" onclick="location.reload()">Restart</button>
+              <button type="button" class="btn btn-secondary" id="restart">Restart</button>
             </div>
           </div>
         </div>
