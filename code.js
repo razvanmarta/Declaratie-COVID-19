@@ -22,7 +22,6 @@ const dropDown ={
 };
 
 dropD.addEventListener('click', ()=>{
-    // console.log(dropDown);
     dropDown.professional.addEventListener("click",()=>{
         localStorage.setItem('reason', 125 );
     });
@@ -74,7 +73,6 @@ const storageData ={
     dataSign: localStorage.getItem('dataSign')
 }
 
-console.log('global', storageData.lastName, storageData.reason);
 
 const switchView = ()=>{
     container.classList.remove('show');
@@ -111,7 +109,6 @@ btnPDF.addEventListener('click',()=>{
     const dataSign= data.dataSign.value;
     localStorage.setItem('dataSign', dataSign);
 
-    console.log('cristina', localStorage.getItem('reason'));
 
     const storageData ={
         lastName: localStorage.getItem('lastName'),
@@ -122,9 +119,6 @@ btnPDF.addEventListener('click',()=>{
         reason: localStorage.getItem('reason'),
         dataSign: localStorage.getItem('dataSign')
     };
-
-    console.log("david", storageData.reason)
-
 
     pdfCreator(storageData);
    

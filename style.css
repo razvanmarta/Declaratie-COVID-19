@@ -1,6 +1,10 @@
+body{
+scroll-behavior: smooth;
+}
 #myModal{
   display: block;
   background-color: lightslategrey;
+
 }
 
 #allIn{
@@ -30,6 +34,7 @@ div.modal-footer{
 }
 
 .modal.show{
+  position: relative;
   display: block;
 
 }
@@ -78,3 +83,11 @@ input#lastName,input#firstName,input#birthDate,input#address,input#destination{
 button#dropdownMenu2 {
   margin-bottom: 8px;
 }
+
+.dropdown-menu.show{
+  width: 100%;
+  overflow: scroll;
+}
+
+
+
